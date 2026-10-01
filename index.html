@@ -1,12 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólio | Fylipe Silva</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello world</h1>
-    
+
+    <!-- Cabeçalho e Navegação Principal -->
+    <header>
+        <div class="header-container">
+            <h1 class="logo">Fylipe Silva</h1>
+            <nav>
+                <ul>
+                    <li><a href="#apresentacao">Início</a></li>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#competencias">Competências</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#curriculo">Currículo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção de Apresentação -->
+        <section id="apresentacao" class="hero-section">
+            <div class="hero-content">
+                <img src="assets/foto-perfil.jpg" alt="Foto de perfil de Fylipe Silva" class="profile-img">
+                <h2>Fylipe Silva</h2>
+                <p class="subtitle">Desenvolvedor Web em formação</p>
+                <p class="description">
+                    Sou estudante de Análise e Desenvolvimento de Sistemas e atuo como Desenvolvedor Web em formação. 
+                    Sou uma pessoa dedicada, esforçada e constantemente motivada a aprender novas tecnologias e aprimorar as minhas competências. 
+                    Procuro oportunidades para aplicar os meus conhecimentos na resolução de problemas reais e evoluir profissionalmente.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn primary-btn">Entre em Contato</a>
+                    <a href="assets/curriculo.pdf" target="_blank" class="btn secondary-btn">Ver Currículo (PDF)</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section id="sobre" class="section">
+            <h2>Sobre Mim</h2>
+            <p>
+                Atualmente estou cursando Tecnólogo em Análise e Desenvolvimento de Sistemas na Universidade Cruzeiro do Sul. 
+                Tenho grande interesse em desenvolvimento Web (Front-end e Back-end), Inteligência Artificial e Bancos de Dados. 
+                Busco minha primeira oportunidade profissional na área de Tecnologia da Informação para colaborar em equipe e solucionar problemas reais.
+            </p>
+        </section>
+
+        <!-- Seção Formação Acadêmica e Cursos -->
+        <section id="formacao" class="section">
+            <h2>Formação e Cursos</h2>
+            <div class="grid-cards">
+                <article class="card">
+                    <h3>Análise e Desenvolvimento de Sistemas</h3>
+                    <p><strong>Instituição:</strong> Universidade Cruzeiro do Sul</p>
+                    <p><strong>Grau:</strong> Tecnólogo</p>
+                    <p><strong>Previsão de Conclusão:</strong> 2º Semestre de 2027</p>
+                </article>
+                <article class="card">
+                    <h3>Inglês Básico</h3>
+                    <p><strong>Instituição:</strong> INTEC</p>
+                    <p><strong>Foco:</strong> Leitura técnica e conversação inicial</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção Competências -->
+        <section id="competencias" class="section">
+            <h2>Competências</h2>
+            <div class="skills-wrapper">
+                <div class="skills-block">
+                    <h3>Competências Técnicas</h3>
+                    <ul>
+                        <li><strong>Inteligência Artificial:</strong> Avançado</li>
+                        <li><strong>Linguagem C:</strong> Intermediário</li>
+                        <li><strong>HTML5 & CSS3:</strong> Iniciante / Em Aprendizado</li>
+                        <li><strong>Python:</strong> Iniciante / Em Aprendizado</li>
+                        <li><strong>Git & GitHub:</strong> Iniciante / Em Aprendizado</li>
+                        <li><strong>Bancos de Dados:</strong> Iniciante / Em Aprendizado</li>
+                    </ul>
+                </div>
+                <div class="skills-block">
+                    <h3>Competências Comportamentais</h3>
+                    <ul>
+                        <li><strong>Organização & Dedicação:</strong> Aplicação contínua em projetos de estudos e código.</li>
+                        <li><strong>Trabalho em Equipe:</strong> Experiência prática acumulada em ambientes operacionais e acadêmicos.</li>
+                        <li><strong>Proatividade:</strong> Iniciativa para idealizar e evoluir soluções voltadas à acessibilidade digital.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Projetos -->
+        <section id="projetos" class="section">
+            <h2>Projetos em Destaque</h2>
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <img src="assets/projeto-01.png" alt="Demonstração do projeto Site de Acessibilidade Digital" class="project-img">
+                    <div class="project-info">
+                        <h3>Site de Acessibilidade Digital</h3>
+                        <p><strong>Objetivo:</strong> Facilitar o entendimento e a comunicação entre pessoas com deficiência cognitiva e seus cuidadores ou pessoas ao redor.</p>
+                        <p><strong>Tecnologias:</strong> HTML5, CSS3</p>
+                        <p><strong>Minha Atuação:</strong> Desenvolvimento de código front-end com foco em melhorias contínuas de interface e acessibilidade.</p>
+                        <a href="https://github.com/felphs1003" target="_blank" rel="noopener" class="btn card-btn">Ver Repositório</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/projeto-02.png" alt="Demonstração do projeto Aplicação de Gerenciamento Financeiro" class="project-img">
+                    <div class="project-info">
+                        <h3>Aplicação de Gerenciamento Financeiro</h3>
+                        <p><strong>Objetivo:</strong> Aplicação voltada para organização e controle financeiro pessoal.</p>
+                        <p><strong>Tecnologias:</strong> Lógica de Programação, Manipulação de Dados</p>
+                        <p><strong>Minha Atuação:</strong> Estruturação da lógica de código e organização dos fluxos de dados.</p>
+                        <a href="https://github.com/felphs1003" target="_blank" rel="noopener" class="btn card-btn">Ver Repositório</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/projeto-03.png" alt="Demonstração do projeto Interfaces Web Responsivas" class="project-img">
+                    <div class="project-info">
+                        <h3>Interfaces Web Responsivas</h3>
+                        <p><strong>Objetivo:</strong> Criação de componentes, formulários e layouts focados em acessibilidade e responsividade.</p>
+                        <p><strong>Tecnologias:</strong> HTML5, CSS3</p>
+                        <p><strong>Minha Atuação:</strong> Construção de estruturas semânticas e estilização responsiva.</p>
+                        <a href="https://github.com/felphs1003" target="_blank" rel="noopener" class="btn card-btn">Ver Repositório</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Seção Currículo -->
+        <section id="curriculo" class="section">
+            <h2>Currículo Profissional</h2>
+            <p>Você pode visualizar ou fazer o download do meu currículo completo em formato PDF no botão abaixo:</p>
+            <a href="assets/curriculo.pdf" target="_blank" download class="btn primary-btn">Baixar Currículo em PDF</a>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" class="section">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo através dos canais oficiais abaixo:</p>
+            <ul class="contact-list">
+                <li><strong>E-mail:</strong> <a href="mailto:silvafylipe74@gmail.com">silvafylipe74@gmail.com</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/felphs1003" target="_blank" rel="noopener">github.com/felphs1003</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/luis-fylipe-a4a23a350" target="_blank" rel="noopener">linkedin.com/in/luis-fylipe-a4a23a350</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 - Desenvolvido por <strong>Fylipe Silva</strong> para a disciplina Design Profissional.</p>
+    </footer>
+
 </body>
 </html>
